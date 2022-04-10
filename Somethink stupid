@@ -1,0 +1,20 @@
+//c#
+using System;
+
+namespace _212
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the first number: ");
+            int b = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the second number: ");
+            int k = Int32.Parse(Console.ReadLine());
+
+            int c = (b > 0) ? c = b * k : c = k;
+            Console.WriteLine(c);
+        }
+    }
+}
